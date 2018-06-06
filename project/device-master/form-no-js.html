@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html lang="ru">
+        <head>
+            <meta charset="utf-8">
+            <title>DEVICE | Форма</title>
+            <link rel="stylesheet" href="css/normalize-min.css">
+            <link rel="stylesheet" href="css/style-min.css">
+        </head>
+        <body>
+            <main class="modal modal-feedback modal-shown">
+                <h2 class="visually-hidden">Написать нам</h2>
+                <form class="form-feedback" action="https://echo.htmlacademy.ru" method="post">
+                    <label class="form-feedback-name" for="name">Ваше имя:
+                        <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+                    </label>
+
+                    <label class="form-feedback-email" for="email">Ваш e-mail:
+                        <input type="email" name="email" id="email" placeholder="email@example.com">
+                    </label>
+
+                    <label  class="form-feedback-message" for="message">Текст письма:
+                        <textarea name="message" id="message" rows="10"  placeholder="В свободной форме"></textarea>
+                    </label>
+
+                    <button class="button submit" type="submit">Отправить</button>
+                </form>
+                <button class="modal-close" type="button">Закрыть</button>
+            </main>
+        </body>
+    </html>
