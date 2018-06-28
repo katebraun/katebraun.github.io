@@ -1,0 +1,36 @@
+.summary {
+  border-collapse: collapse;
+  margin-top: 17px;
+  margin-left: 32px;
+  margin-right: 32px;
+  width: 294px;
+}
+
+.summary tfoot {
+  border-top: 1px solid #f4f4f4;
+}
+
+.summary__term {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.summary__value {
+  font-size: 14px;
+  line-height: 25px;
+  font-family: $med;
+  text-align: end;
+}
+
+.summary__total {
+  font-family: $med;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 73px;
+}
+
+.summary__price {
+  text-align: end;
+  font-size: 20px;
+  line-height: 32px;
+}

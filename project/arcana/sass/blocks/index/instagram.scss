@@ -1,0 +1,20 @@
+.instagram {
+  margin: 0 auto;
+  width: 1920px;
+  position: relative;
+}
+
+.instagram__title {
+  position: absolute;
+  font-size: 42px;
+  line-height: 64px;
+  letter-spacing: 0.01em;
+  top: calc(50% - 72px);
+  left: calc(50% - 129px);
+  font-weight: 300;
+  color: white;
+}
+
+.instagram__list {
+  display: flex;
+}

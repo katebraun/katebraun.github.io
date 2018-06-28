@@ -1,0 +1,33 @@
+.features {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.features__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 54px 322px 0 337px;
+}
+
+.features__list-item {
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+  padding-top: 30px;
+}
+
+.features__title {
+  text-align: center;
+  font-family: $med;
+  font-size: 14px;
+  line-height: 64px;
+  color: black;
+}
+
+.features__text {
+  text-align: center;
+  line-height: 20px;
+  color: #929292;
+  margin-top: -18px;
+  margin-bottom: 45px;
+}

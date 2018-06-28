@@ -1,0 +1,17 @@
+.brands {
+  margin: 0 auto;
+  width: 1920px;
+}
+
+.brands__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brands__list-item {
+  min-width: 320px;
+  min-height: 148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

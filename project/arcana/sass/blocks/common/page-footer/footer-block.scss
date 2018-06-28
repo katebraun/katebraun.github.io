@@ -1,0 +1,20 @@
+.footer-block:nth-child(2) {
+  margin-left: 200px;
+  margin-right: 115px;
+}
+
+.footer-block__title {
+  font-size: 16px;
+  margin-top: -1px;
+  margin-bottom: 37px;
+}
+
+.footer-block__list {
+  font-size: 12px;
+  line-height: 30px;
+  color: #929292;
+}
+
+.footer-block__link:hover {
+  opacity: 0.5;
+}

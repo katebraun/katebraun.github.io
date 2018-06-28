@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Arkana | Main</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 class="visually-hidden">Arkana</h1>
+      <div class="page-header__top">
+        <div class="page-header__left">
+          <button class="page-header__menu" type="button">Menu</button>
+          <button class="page-header__search">Search</button>
+        </div>
+        <div class="page-header__center">
+          <a class="page-header__logo" href="index.html">
+            <img src="img/raster/logo.png" width="187" height="18" alt="Arkana Logo">
+          </a>
+        </div>
+        <div class="page-header__right">
+          <button class="page-header__share">Share</button>
+          <button class="page-header__cart">Cart</button>
+        </div>
+      </div>
+      <nav class="page-header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a class="nav__link" href="#">Dresses</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="#">Blouses</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="#">Tees & tops</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="#">T-shirts</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="#">Outerwear</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="#">Pants</a></li>
+        </ul>
+      </nav>
+
+      <section class="modal modal-menu">
+        <h2 class="visually-hidden">Main menu</h2>
+        <div class="modal-menu__left modal-cats">
+          <div class="modal-cats__block">
+            <p class="modal-cats__title">T-shirts & blouses</p>
+            <ul class="modal-cats__list">
+              <li class="modal-cats__list-item">
+                <a class="modal-cats__link" href="#">Blouses</a>
+              </li>
+              <li class="modal-cats__list-item">
+                <a class="modal-cats__link modal-cats__link--active" href="#">Shirts</a>
+              </li>
+              <li class="modal-cats__list-item">
+                <a class="modal-cats__link" href="#">T-Shirts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="modal-cats__block">
+            <p class="modal-cats__title">Outerwear</p>
+            <ul class="modal-cats__list">
+              <li class="modal-cats__list-item">
+                <a class="modal-cats__link" href="#">Coats</a>
+              </li>
+              <li class="modal-cats__list-item">
+                <a class="modal-cats__link" href="#">Hoodies & Pullovers</a>
+              </li>
+              <li class="modal-cats__list-item">
+                <a class="modal-cats__link" href="#">Jackets</a>
+              </li>
+            </ul>
+          </div>
+          <div class="modal-cats__block">
+            <p class="modal-cats__title">Warm clothes</p>
+            <ul class="modal-cats__list">
+              <li class="modal-cats__list-item">
+                <a class="modal-cats__link" href="#">Cardigans</a>
+              </li>
+              <li class="modal-cats__list-item">
+                <a class="modal-cats__link" href="#">Sweaters</a>
+              </li>
+              <li class="modal-cats__list-item">
+                <a class="modal-cats__link" href="#">Sweatshirts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="modal-menu__center modal-tops">
+          <ul class="modal-tops__list">
+            <li class="modal-tops__list-item">
+              <a class="modal-tops__link" href="#">
+                <img class="modal-tops__img" src="img/raster/menu-cart-1.jpg" width="79" height="105" alt="Popular sweater">
+                <div class="modal-tops__description">
+                  <h3 class="modal-tops__title">Happy intarsia crewneck sewater</h3>
+                  <table class="modal-tops__price">
+                    <tr>
+                      <td class="modal-tops__new-price">$ 199.00</td>
+                      <td class="modal-tops__old-price">$ 299.00</td>
+                    </tr>
+                  </table>
+                </div>
+              </a>
+            </li>
+            <li class="modal-tops__list-item">
+              <a class="modal-tops__link" href="#">
+                <img class="modal-tops__img" src="img/raster/menu-cart-2.jpg" width="79" height="105" alt="Popular sweater">
+                <div class="modal-tops__description">
+                  <h3 class="modal-tops__title">Happy intarsia crewneck sewater</h3>
+                  <table class="modal-tops__price">
+                    <tr>
+                      <td class="modal-tops__new-price">$ 199.00</td>
+                      <td class="modal-tops__old-price">$ 299.00</td>
+                    </tr>
+                  </table>
+                </div>
+              </a>
+            </li>
+            <li class="modal-tops__list-item">
+              <a class="modal-tops__link" href="#">
+                <img class="modal-tops__img" src="img/raster/menu-cart-2.jpg" width="79" height="105" alt="Popular sweater">
+                <div class="modal-tops__description">
+                  <h3 class="modal-tops__title">Happy intarsia crewneck sewater</h3>
+                  <table class="modal-tops__price">
+                    <tr>
+                      <td class="modal-tops__new-price">$ 199.00</td>
+                      <td class="modal-tops__old-price">$ 299.00</td>
+                    </tr>
+                  </table>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-menu__right modal-partners">
+          <ul class="modal-partners__list">
+            <li class="modal-partners__list-item">
+              <a class="modal-partners__link" href="#">
+                <img class="modal-partners__image" src="img/raster/logo-fredperry.png" width="105" height="13" alt="Fred Perry">
+              </a>
+            </li>
+            <li class="modal-partners__list-item">
+              <a class="modal-partners__link" href="#">
+                <img class="modal-partners__image" src="img/raster/logo-jackjones.png" width="153" height="13" alt="Jack & Jones">
+              </a>
+            </li>
+            <li class="modal-partners__list-item">
+              <a class="modal-partners__link" href="#">
+                <img class="modal-partners__image" src="img/raster/logo-lacoste.png" width="79" height="13" alt="Lacoste">
+              </a>
+            </li>
+            <li class="modal-partners__list-item">
+              <a class="modal-partners__link" href="#">
+                <img class="modal-partners__image" src="img/raster/logo-levis.png" width="51" height="13" alt="Levi's">
+              </a>
+            </li>
+            <li class="modal-partners__list-item">
+              <a class="modal-partners__link" href="#">
+                <img class="modal-partners__image" src="img/raster/logo-sisley.png" width="53" height="13" alt="Sisley">
+              </a>
+            </li>
+            <li class="modal-partners__list-item">
+              <a class="modal-partners__link" href="#">
+                <img class="modal-partners__image" src="img/raster/logo-wrangler.png" width="43" height="13" alt="Wrangler">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="modal modal-search">
+        <h2 class="visually-hidden">Searchfield</h2>
+        <form class="modal-search__form" action="https://echo.htmlacademy.ru" method="post">
+          <label class="visually-hidden" for="search-field">Search</label>
+          <input class="modal-search__field" type="search" name="search-field" id="search-field">
+          <button class="modal-search__btn" type="submit"><img class="modal-search__btn-img" src="img/vector/search-grey.svg" width="20" height="20" alt="search"></button>
+        </form>
+      </section>
+
+      <section class="modal modal-share">
+        <h2 class="visually-hidden">Share</h2>
+        <ul class="modal-share__list">
+          <li class="modal-share__list-item">
+            <a class="modal-share__link">
+              <img class="modal-share__img" src="img/vector/social-fb.svg" width="15" height="15" alt="Facebook">
+            </a>
+          </li>
+          <li class="modal-share__list-item">
+            <a class="modal-share__link">
+              <img class="modal-share__img" src="img/vector/social-inst.svg" width="15" height="15" alt="Instagram">
+            </a>
+          </li>
+          <li class="modal-share__list-item">
+            <a class="modal-share__link">
+              <img class="modal-share__img" src="img/vector/social-gp.svg" width="15" height="15" alt="Google+">
+            </a>
+          </li>
+          <li class="modal-share__list-item">
+            <a class="modal-share__link">
+              <img class="modal-share__img" src="img/vector/social-tw.svg" width="15" height="15" alt="Twitter">
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="modal modal-cart">
+        <div class="modal-cart__header">
+          <h2 class="modal-cart__title">Shopping cart</h2>
+          <button class="modal-cart__close" type="button"><img src="img/vector/cart-close.svg" width="16" height="16" alt="Close"></button>
+        </div>
+        <div class="modal-cart__main in-cart">
+          <ul class="in-cart__list">
+            <li class="in-cart__list-item">
+              <a class="in-cart__link" href="#">
+                <img class="in-cart__img" src="img/raster/menu-cart-2.jpg" width="77" height="103" alt="Sweater">
+                <div class="in-cart__description">
+                  <h3 class="in-cart__title">Happy intarsia crewneck sweater</h3>
+                  <dl class="in-cart__info">
+                    <dt class="in-cart__term">Size:</dt>
+                    <dd class="in-cart__value">S</dd>
+                    <dt class="in-cart__term">Color:</dt>
+                    <dd class="in-cart__value">Blue</dd>
+                  </dl>
+                  <p class="in-cart__price">$24.95 <span class="in-cart__multiplier">x</span><span class="in-cart__amount"> 2</span></p>
+                </div>
+              </a>
+              <button class="in-cart__close"><img src="img/vector/cart-item-close.svg" width="19" height="19" alt="Close"></button>
+            </li>
+            <li class="in-cart__list-item">
+              <a class="in-cart__link" href="#">
+                <img class="in-cart__img" src="img/raster/menu-cart-1.jpg" width="77" height="103" alt="Sweater">
+                <div class="in-cart__description">
+                  <h3 class="in-cart__title">Happy intarsia crewneck sweater</h3>
+                  <dl class="in-cart__info">
+                    <dt class="in-cart__term">Size:</dt>
+                    <dd class="in-cart__value">S</dd>
+                    <dt class="in-cart__term">Color:</dt>
+                    <dd class="in-cart__value">Blue</dd>
+                  </dl>
+                  <p class="in-cart__price">$24.95 <span class="in-cart__multiplier">x</span><span class="in-cart__amount"> 2</span></p>
+                </div>
+              </a>
+              <button class="in-cart__close"><img src="img/vector/cart-item-close.svg" width="19" height="19" alt="Close"></button>
+            </li>
+            <li class="in-cart__list-item">
+              <a class="in-cart__link" href="#">
+                <img class="in-cart__img" src="img/raster/menu-cart-3.jpg" width="77" height="103" alt="Sweater">
+                <div class="in-cart__description">
+                  <h3 class="in-cart__title">Happy intarsia crewneck sweater</h3>
+                  <dl class="in-cart__info">
+                    <dt class="in-cart__term">Size:</dt>
+                    <dd class="in-cart__value">S</dd>
+                    <dt class="in-cart__term">Color:</dt>
+                    <dd class="in-cart__value">Blue</dd>
+                  </dl>
+                  <p class="in-cart__price">$24.95 <span class="in-cart__multiplier">x</span><span class="in-cart__amount"> 2</span></p>
+                </div>
+              </a>
+              <button class="in-cart__close"><img src="img/vector/cart-item-close.svg" width="19" height="19" alt="Close"></button>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-cart__footer">
+          <table class="modal-cart__summary summary">
+            <tbody>
+              <tr>
+                <td class="summary__term">2 items</td>
+                <td class="summary__value">42.95 $</td>
+              </tr>
+              <tr>
+                <td class="summary__term">Shipping</td>
+                <td class="summary__value">7.00 $</td>
+              </tr>
+              <tr>
+                <td class="summary__term">Taxes</td>
+                <td class="summary__value">0.00 $</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td class="summary__total">Total</td>
+                <td class="summary__price">42.95 $</td>
+              </tr>
+            </tfoot>
+          </table>
+          <a class="modal-cart__checkout" href="#">Processed to checkout</a>
+        </div>
+      </section>
+    </header>
+
+    <main class="catalog-main">
+      <section class="filters">
+        <h2 class="visually-hidden">Filtration</h2>
+        <section class="filters__block block">
+          <h3 class="block__title">Top</h3>
+        </section>
+        <section class="filters__block block">
+            <h3 class="block__title">T-Shirt & Blouses</h3>
+            <ul class="block__list">
+              <li class="block__list-item">
+                <a class="block__link" href="#">Blouses</a>
+              </li>
+              <li class="block__list-item">
+                <a class="block__link block__link--active" href="#">Shirts</a>
+              </li>
+              <li class="block__list-item">
+                <a class="block__link" href="#">T-Shirts</a>
+              </li>
+            </ul>
+        </section>
+        <section class="filters__block block">
+            <h3 class="block__title">T-Shirt</h3>
+        </section>
+        <section class="filters__block block">
+            <h3 class="block__title">Outerwear</h3>
+        </section>
+        <section class="filters__filters-by filters-by">
+            <h3 class="filters-by__title">Top</h3>
+            <form class="filters-by__form filters-form" action="https://echo.htmlacademy.ru" method="POST">
+              <fieldset class="filters-form__cats">
+                <legend class="filters-form__title">Categories</legend>
+                <input class="filters-form__input" type="checkbox" name="category" id="dresses" value="Dresses">
+                <label class="filters-form__label" for="black">Dresses</label>
+                <input class="filters-form__input" type="checkbox" name="category" id="Blouses" value="Blouses" checked>
+                <label class="filters-form__label" for="white">Blouses</label>
+                <input class="filters-form__input" type="checkbox" name="category" id="Outerwear" value="Outerwear">
+                <label class="filters-form__label" for="blue">Outerwear</label>
+              </fieldset>
+
+              <fieldset class="filters-form__colors">
+                <legend class="filters-form__title">Colors</legend>
+                <input class="filters-form__input" type="checkbox" name="color" id="Beige" value="Beige">
+                <label class="filters-form__label" for="black">Beige(1)</label>
+                <input class="filters-form__input" type="checkbox" name="color" id="Black" value="Black">
+                <label class="filters-form__label" for="white">Black(2)</label>
+                <input class="filters-form__input" type="checkbox" name="color" id="Yellow" value="Yellow">
+                <label class="filters-form__label" for="blue">Yellow(4)</label>
+                <input class="filters-form__input" type="checkbox" name="color" id="White" value="White">
+                <label class="filters-form__label" for="blue">White(4)</label>
+              </fieldset>
+
+              <fieldset class="filters-form__compose">
+                <legend class="filters-form__title">Compositions</legend>
+                <input class="filters-form__input" type="checkbox" name="compositions" id="Cotton" value="Cotton">
+                <label class="filters-form__label" for="black">Cotton(3)</label>
+                <input class="filters-form__input" type="checkbox" name="compositions" id="Polyester" value="Polyester" checked>
+                <label class="filters-form__label" for="white">Polyester(2)</label>
+                <input class="filters-form__input" type="checkbox" name="compositions" id="Viscose" value="Viscose">
+                <label class="filters-form__label" for="blue">Viscose(2)</label>
+              </fieldset>
+
+              <button class="filters-form__btn" type="reset">Clean all</button>
+            </form>
+        </section>
+      </section>
+      <section class="products">
+        <div class="products__header">
+          <h2 class="products__title">Dresses</h2>
+          <p class="products__text">Find your favorites dresses from our wide choice of evening, casual or summer dresses! We offer dresses for every day, every style and every occasion.</p>
+          <div class="products__filter-box">
+            <p class="products__filter-text">There are 5 products</p>
+            <p class="products__filter-text products__filter-text--right">
+              <span class="products__span">Sort by:</span>
+              Price, high to low
+            </p>
+          </div>
+          <div class="active-filters">
+            <p class="active-filters__title">Active Filters</p>
+            <ul class="active-filters__list">
+              <li class="active-filters__list-item">
+                <span class="active-filters__item">Casual dresses</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <section class="products__items catalog">
+          <h2 class="visually-hidden">Catalog</h2>
+          <ul class="catalog__list">
+            <li class="catalog__item product product--sale">
+              <img class="product__img" src="img/raster/catalog-1.jpg" width="255" height="340" alt="Product">
+              <h3 class="product__item-title">Excepteur sint occaecat cupidatat</h3>
+              <p class="product__price">$ 199.00<span class="product__price product__price--old">$ 299.00</span></p>
+              <div class="product__hover-item">
+                <button class="product__btn" type="button">Quick view</button>
+                <a class="product__btn" href="#">More details</a>
+              </div>
+            </li>
+            <li class="catalog__item product">
+              <img class="product__img" src="img/raster/catalog-2.jpg" width="255" height="340" alt="Product">
+              <h3 class="product__item-title">Excepteur sint occaecat cupidatat</h3>
+              <p class="product__price">$ 199.00</p>
+              <div class="product__hover-item">
+                <button class="product__btn" type="button">Quick view</button>
+                <a class="product__btn" href="#">More details</a>
+              </div>
+            </li>
+            <li class="catalog__item product">
+              <img class="product__img" src="img/raster/catalog-3.jpg" width="255" height="340" alt="Product">
+              <h3 class="product__item-title">Excepteur sint occaecat cupidatat</h3>
+              <p class="product__price">$ 199.00</p>
+              <div class="product__hover-item">
+                <button class="product__btn" type="button">Quick view</button>
+                <a class="product__btn" href="#">More details</a>
+              </div>
+            </li>
+            <li class="catalog__item product">
+              <img class="product__img" src="img/raster/catalog-4.jpg" width="255" height="340" alt="Product">
+              <h3 class="product__item-title">Excepteur sint occaecat cupidatat</h3>
+              <p class="product__price">$ 199.00</p>
+              <div class="product__hover-item">
+                <button class="product__btn" type="button">Quick view</button>
+                <a class="product__btn" href="#">More details</a>
+              </div>
+            </li>
+            <li class="catalog__item product">
+              <img class="product__img" src="img/raster/catalog-5.jpg" width="255" height="340" alt="Product">
+              <h3 class="product__item-title">Excepteur sint occaecat cupidatat</h3>
+              <p class="product__price">$ 199.00</p>
+              <div class="product__hover-item">
+                <button class="product__btn" type="button">Quick view</button>
+                <a class="product__btn" href="#">More details</a>
+              </div>
+            </li>
+            <li class="catalog__item product">
+              <img class="product__img" src="img/raster/catalog-6.jpg" width="255" height="340" alt="Product">
+              <h3 class="product__item-title">Excepteur sint occaecat cupidatat</h3>
+              <p class="product__price">$ 199.00</p>
+              <div class="product__hover-item">
+                <button class="product__btn" type="button">Quick view</button>
+                <a class="product__btn" href="#">More details</a>
+              </div>
+            </li>
+                        <li class="catalog__item product product--sale">
+              <img class="product__img" src="img/raster/catalog-1.jpg" width="255" height="340" alt="Product">
+              <h3 class="product__item-title">Excepteur sint occaecat cupidatat</h3>
+              <p class="product__price">$ 199.00<span class="product__price product__price--old">$ 299.00</span></p>
+              <div class="product__hover-item">
+                <button class="product__btn" type="button">Quick view</button>
+                <a class="product__btn" href="#">More details</a>
+              </div>
+            </li>
+            <li class="catalog__item product">
+              <img class="product__img" src="img/raster/catalog-2.jpg" width="255" height="340" alt="Product">
+              <h3 class="product__item-title">Excepteur sint occaecat cupidatat</h3>
+              <p class="product__price">$ 199.00</p>
+              <div class="product__hover-item">
+                <button class="product__btn" type="button">Quick view</button>
+                <a class="product__btn" href="#">More details</a>
+              </div>
+            </li>
+            <li class="catalog__item product">
+              <img class="product__img" src="img/raster/catalog-3.jpg" width="255" height="340" alt="Product">
+              <h3 class="product__item-title">Excepteur sint occaecat cupidatat</h3>
+              <p class="product__price">$ 199.00</p>
+              <div class="product__hover-item">
+                <button class="product__btn" type="button">Quick view</button>
+                <a class="product__btn" href="#">More details</a>
+              </div>
+            </li>
+            <li class="catalog__item product">
+              <img class="product__img" src="img/raster/catalog-4.jpg" width="255" height="340" alt="Product">
+              <h3 class="product__item-title">Excepteur sint occaecat cupidatat</h3>
+              <p class="product__price">$ 199.00</p>
+              <div class="product__hover-item">
+                <button class="product__btn" type="button">Quick view</button>
+                <a class="product__btn" href="#">More details</a>
+              </div>
+            </li>
+            <li class="catalog__item product">
+              <img class="product__img" src="img/raster/catalog-5.jpg" width="255" height="340" alt="Product">
+              <h3 class="product__item-title">Excepteur sint occaecat cupidatat</h3>
+              <p class="product__price">$ 199.00</p>
+              <div class="product__hover-item">
+                <button class="product__btn" type="button">Quick view</button>
+                <a class="product__btn" href="#">More details</a>
+              </div>
+            </li>
+            <li class="catalog__item product">
+              <img class="product__img" src="img/raster/catalog-6.jpg" width="255" height="340" alt="Product">
+              <h3 class="product__item-title">Excepteur sint occaecat cupidatat</h3>
+              <p class="product__price">$ 199.00</p>
+              <div class="product__hover-item">
+                <button class="product__btn" type="button">Quick view</button>
+                <a class="product__btn" href="#">More details</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <div class="products__pagination pagination">
+          <p class="pagination__text">Showing 1-7 of 7 items(s)</p>
+          <div class="pagination__pages pages">
+            <ul class="pages__list">
+              <li class="pages__item">
+                <a class="pages__link pages__link--prev" href="#">Previous</a>
+              </li>
+              <li class="pages__item">
+                <a class="pages__link" href="#">1</a>
+              </li>
+              <li class="pages__item">
+                <a class="pages__link pages__link--active" href="#">2</a>
+              </li>
+              <li class="pages__item">
+                <a class="pages__link" href="#">3</a>
+              </li>
+              <li class="pages__item">
+                <a class="pages__link" href="#">4</a>
+              </li>
+              <li class="pages__item">
+                <a class="pages__link" href="#">5</a>
+              </li>
+              <li class="pages__item">
+                <a class="pages__link pages__link--next" href="#">Next</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__main">
+        <div class="page-footer__left">
+          <img class="page-footer__logo" src="img/raster/logo.png" width="187" height="18" alt="Arkana">
+          <p class="page-footer__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <ul class="page-footer__social social">
+            <li class="social__item">
+              <img class="social__img" src="img/vector/social-fb.svg" width="8" height="14" alt="Facebook">
+            </li>
+            <li class="social__item">
+              <img class="social__img" src="img/vector/social-inst.svg" width="15" height="15" alt="Instagram">
+            </li>
+            <li class="social__item">
+              <img class="social__img" src="img/vector/social-gp.svg" width="15" height="15" alt="Google+">
+            </li>
+            <li class="social__item">
+              <img class="social__img" src="img/vector/social-tw.svg" width="13" height="12" alt="Twitter">
+            </li>
+          </ul>
+          <form class="page-footer__form" action="https://echo.htmlacademy.ru" method="post">
+            <label class="visually-hidden" for="email">Search</label>
+            <input class="page-footer__field" type="email" name="email" id="email" placeholder="Enter your email" required>
+            <button class="page-footer__btn" type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="page-footer__right">
+          <div class="page-footer__block footer-block">
+            <h3 class="footer-block__title">Products</h3>
+            <ul class="footer-block__list">
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Prices drop</a>
+              </li>
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">New products</a>
+              </li>
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Best Sales</a>
+              </li>
+            </ul>
+          </div>
+          <div class="page-footer__block footer-block">
+            <h3 class="footer-block__title">Information</h3>
+            <ul class="footer-block__list">
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Delivery</a>
+              </li>
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Legal Notice</a>
+              </li>
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Terms and conditions of use</a>
+              </li>
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">About us</a>
+              </li>
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Secure payment</a>
+              </li>
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Contact us</a>
+              </li>
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Sitemap</a>
+              </li>
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Stores</a>
+              </li>
+            </ul>
+          </div>
+          <div class="page-footer__block footer-block">
+            <h3 class="footer-block__title">Your account</h3>
+            <ul class="footer-block__list">
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Addresses</a>
+              </li>
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Credit slips</a>
+              </li>
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Orders</a>
+              </li>
+              <li class="footer-block__item">
+                <a class="footer-block__link" href="#">Personal info</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="page-footer__payways">
+        <img class="page-footer__payways-img" src="img/raster/pay-method.png" width="171" height="24" alt="Payment method">
+      </div>
+    </footer>
+  </body>
+</html>

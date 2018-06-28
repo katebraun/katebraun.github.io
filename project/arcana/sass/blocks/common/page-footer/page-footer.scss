@@ -1,0 +1,76 @@
+.page-footer {
+  background-color: #fafafa;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: -5px;
+}
+
+.page-footer__main {
+  display: flex;
+  margin: 0 auto;
+  width: 1070px;
+  padding-top: 68px;
+}
+
+.page-footer__left {
+  display: flex;
+  flex-direction: column;
+  margin-left: -20px;
+  width: 380px;
+}
+
+.page-footer__text {
+  margin-top: 42px;
+  padding-right: 125px;
+  color: #929292;
+}
+
+.page-footer__form {
+  box-sizing: border-box;
+  border: 1px solid #a9a9a9;
+  margin-top: 40px;
+  max-width: 350px;
+}
+
+.page-footer__field {
+  box-sizing: border-box;
+  background-color: transparent;
+  min-height: 48px;
+  border: none;
+  padding: 17px;
+  font-size: 11px;
+  width: 240px;
+}
+
+.page-footer__btn {
+  border: none;
+  background-color: transparent;
+  width: 104px;
+  height: 46px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: $med;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+.page-footer__right {
+  display: flex;
+  width: 690px;
+}
+
+.page-footer__payways {
+  position: relative;
+  margin-top: 70px;
+  background-color: black;
+  min-height: 52px;
+}
+
+.page-footer__payways-img {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% + 100px);
+}

@@ -1,0 +1,65 @@
+.modal-cats {
+  position: relative;
+  box-sizing: border-box;
+  width: 434px;
+  padding: 31px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 0;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 435px;
+    background-color: #e5e5e5;
+    top: 0;
+    right: 0;
+  }
+}
+
+.modal-cats__block {
+  width: 214px;
+
+  &:nth-child(2) {
+    width: 160px;
+  }
+
+  &:last-child {
+    margin-top: -95px;
+  }
+}
+
+.modal-cats__title {
+  font-size: 14px;
+  font-family: $med;
+  text-transform: uppercase;
+  margin-top: -2px;
+}
+
+.modal-cats__link {
+  position: relative;
+  font-size: 12px;
+  line-height: 26px;
+  color: black;
+
+  &--active {
+    padding-left: 28px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 18px;
+      height: 1px;
+      background-color: black;
+      top: 8px;
+      left: 0;
+    }
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

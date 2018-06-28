@@ -1,0 +1,50 @@
+.modal-menu {
+  position: absolute;
+  width: 1110px;
+  height: 435px;
+  background-color: white;
+  display: none;
+  top: 145px;
+  left: calc(50% - 554px);
+  box-shadow: 0 7px 15px rgba(1, 2, 3, 0.15);
+}
+
+.modal-menu-show {
+  display: flex;
+  animation: bounce 0.6s;
+}
+
+.modal-menu__close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 0;
+  border: 0;
+  background-color: black;
+  right: -25px;
+  top: -25px;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    background-color: #ffffff;
+  }
+
+  &::before {
+    transform: translateX(-50%) rotate(-45deg);
+  }
+
+  &::after {
+    transform: translateX(-50%) rotate(45deg);
+  }
+
+  &:hover {
+    background-color: #363636;
+  }
+}
