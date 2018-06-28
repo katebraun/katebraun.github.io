@@ -309,21 +309,21 @@ template {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: local("Montserrat Regular"), url("../fonts/montserrat-regular.woff") format("woff"), url("../fonts/montserrat-regular.woff2") format("woff2"), url("../fonts/montserrat-regular.ttf") format("ttf"); }
+  src: local("Montserrat Regular"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/montserrat-regular.ttf") format("ttf"); }
 
 @font-face {
   font-family: "Montserrat Medium";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: local("Montserrat Medium"), url("../fonts/montserrat-medium.woff") format("woff"), url("../fonts/montserrat-medium.woff2") format("woff2"), url("../fonts/montserrat-medium.ttf") format("ttf"); }
+  src: local("Montserrat Medium"), url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/montserrat-medium.ttf") format("ttf"); }
 
 @font-face {
   font-family: "Montserrat SemiBold";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: local("Montserrat Semibold"), url("../fonts/montserrat-semibold.woff") format("woff"), url("../fonts/montserrat-semibold.woff2") format("woff2"), url("../fonts/montserrat-semibold.ttf") format("ttf"); }
+  src: local("Montserrat Semibold"), url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/montserrat-semibold.ttf") format("ttf"); }
 
 body {
   min-width: 1920px;
@@ -471,7 +471,7 @@ ul {
   align-items: center;
   top: 0;
   left: 0;
-  background-image: url("../../../img/raster/slide-1.jpg");
+  background-image: url("../img/raster/slide-1.jpg");
   background-color: grey;
   background-size: cover;
   width: 100%;
@@ -499,7 +499,7 @@ ul {
     position: absolute;
     width: 11px;
     height: 18px;
-    background-image: url("../../../img/raster/left.png");
+    background-image: url("../img/raster/left.png");
     background-size: cover;
     top: calc(50% - 9px);
     left: calc(50% - 6px); }
@@ -511,7 +511,7 @@ ul {
   margin-right: 20px;
   background-color: rgba(41, 41, 41, 0.8); }
   .slider__btn--next::before {
-    background-image: url("../../../img/raster/right.png");
+    background-image: url("../img/raster/right.png");
     left: calc(50% - 4px); }
   .slider__btn--next:hover {
     background-color: rgba(255, 255, 255, 0.3); }
